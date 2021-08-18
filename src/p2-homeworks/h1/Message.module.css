@@ -1,0 +1,48 @@
+.rootMess {
+    display: flex;
+    margin: 10px;
+    background-color: mediumpurple;
+
+}
+
+.rootMess img {
+    border-radius: 60px;
+    border: 2px solid #26a69a;
+    width: 50px;
+    margin: 60px 10px 10px 10px;
+}
+
+.timeMess {
+    float: right;
+    padding: 0px;
+}
+
+.messInfo {
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: #000;
+    background-color: #e6e7ec;
+    max-width: 600px;
+    position: relative;
+    margin: 15px 0;
+}
+
+.messInfo:after {
+    content: "";
+    width: 20px;
+    height: 12px;
+    display: block;
+    background-image: url("https://stageviewcincyshakes.firebaseapp.com/icon-gray-message.e6296433d6a72d473ed4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    bottom: -2px;
+    left: -5px;
+}
+
+.inputForm{
+
+}
+
