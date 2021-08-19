@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './Message.module.css'
 
-type MessagePropsType = {
+export type MessagePropsType = {
     avatar: string,
     name: string,
     message: string,
