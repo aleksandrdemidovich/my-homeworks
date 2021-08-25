@@ -20,7 +20,7 @@ function HW1() {
     }
 
     function onInputKeyPres(event:React.KeyboardEvent<HTMLInputElement>){
-        if(event.code === 'Enter'){
+        if(event.code === 'Enter' || event.code === 'NumpadEnter'){
             sendMessage()
         }
     }
@@ -38,12 +38,9 @@ function HW1() {
             {messages.map((message, i) => (
                 <Message key = {i} avatar={messageData.avatar} name={messageData.name} message={message.message} time={message.time}/>
             ) )}
-
-            <hr/>
             <input type='text' placeholder = 'Enter message' value={inputValue} onChange={(e) => setInputValue(e.target.value)} onKeyPress={onInputKeyPres} autoFocus/>
             <button onClick={sendMessage}>Send</button>
             {/*<AlternativeMessage/>*/}
-            <hr/>
         </div>
     )
 }

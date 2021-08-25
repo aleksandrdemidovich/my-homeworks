@@ -1,3 +1,31 @@
-.someClass {
+.affairPriority {
+    position: absolute;
+    margin-left: 150px;
+}
+
+.affair{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.deleteAffairButton{
+    color: red;
+}
+
+.rootBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    width: 300px;
+    height: 250px;
+}
+
+.bf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
 
 }
