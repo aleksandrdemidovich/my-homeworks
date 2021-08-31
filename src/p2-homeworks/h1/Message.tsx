@@ -11,7 +11,7 @@ export type MessagePropsType = {
 function Message(props: MessagePropsType) {
     return (
         <div className={s.rootMess}>
-            <img src={props.avatar}/>
+            <img src={props.avatar} alt='ava'/>
             <div className={s.messInfo}>
                 <div>{props.name}</div>
                 <div>{props.message}</div>

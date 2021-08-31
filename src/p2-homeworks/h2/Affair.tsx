@@ -13,13 +13,10 @@ const getColorByPriority = (priority: AffairPriorityType) => {
     switch (priority) {
         case 'high':
             return 'green'
-            break
         case 'middle':
             return 'blue'
-            break
         case 'low' :
             return 'red'
-            break
     }
 }
 

@@ -1,7 +1,22 @@
 .someClass {
+    margin: 5px;
+}
+.someClass button{
+    margin-left: 10px;
+}
 
+.someClass span{
+    margin-left: 10px;
+}
+
+.someClass div{
+    color: red;
 }
 
 .error {
     border: 1px solid red;
+}
+
+.input {
+    border: 1px solid black;
 }
