@@ -1,6 +1,5 @@
-.blue {
-    border-bottom: 5px solid blue;
-}
+/*
+
 
 .column {
     display: flex;
@@ -10,4 +9,21 @@
 
 .testSpanError {
     color: blue;
+}*/
+
+.column{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 1.5rem;
+    background-color:#222222;
 }
+
+.blue {
+    border-bottom: 5px solid blue;
+}
+
+

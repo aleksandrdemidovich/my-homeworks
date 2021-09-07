@@ -24,4 +24,5 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
     )
 }
 
+
 export default SuperButton

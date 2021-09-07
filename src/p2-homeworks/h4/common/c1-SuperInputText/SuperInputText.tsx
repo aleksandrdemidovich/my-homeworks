@@ -39,20 +39,25 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     }
 
     const finalSpanClassName = `${s.error} ${spanClassName ? spanClassName : ''}`
-    const finalInputClassName = `${s.errorInput} ${className}` // need to fix with (?:) and s.superInput
+    const finalInputClassName = `${s.input} ${error ? s.errorInput : s.superInput} ${className}` // need to fix with (?:) and s.superInput
+
 
     return (
-        <>
+        <div className={s.inputWrap}>
+            <label htmlFor="name">
             <input
                 type={'text'}
                 onChange={onChangeCallback}
                 onKeyPress={onKeyPressCallback}
                 className={finalInputClassName}
-
+                name="name"
+                id='name'
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
             />
+                {<span className={ restProps.value === '' ? s.placeHolder: s.hidePlaceHolder }>Type here</span>}
+            </label>
             {error && <span className={finalSpanClassName}>{error}</span>}
-        </>
+        </div>
     )
 }
 

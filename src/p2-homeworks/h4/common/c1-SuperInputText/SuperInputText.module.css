@@ -1,12 +1,96 @@
-.superInput {
+.inputWrap label{
+    display:block;
+    height:50px;
+    width: 400px;
+    overflow:hidden;
+    position:relative;
+    margin-bottom: 20px;
+}
 
+.superInput {
+    position: absolute;
+    top: 20px;
+    font-family: inherit;
+    width: 400px;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    background: transparent;
+}
+
+.placeHolder {
+    color: #9b9b9b;
+    font-size: small;
+}
+
+.hidePlaceHolder {
+    visibility: hidden;
+}
+
+.superInput~ span{
+    transition:top .4s ease;
+    position:absolute;
+    top:20px;
+    margin-bottom: 1px;
+
+}
+
+.superInput:focus~ span{
+    margin-bottom: 1px;
+    top:0;
+    color: #38ef7d;
+}
+
+.superInput:focus {
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+
+
+
+
+.errorInput:focus {
+    color: #fff;
+    border-bottom: 3px solid red;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    font-size: 1.3rem;
+    border: 0;
+    outline: 0;
+    background-color:#222222;
+    border-bottom: 3px solid red;
+}
+
+.errorInput span{
+    transition:top .4s ease;
+    position:absolute;
+    top:20px;
+}
+
+
+.errorInput ~ span{
+    transition:top .4s ease;
+    position:absolute;
+    top:20px;
+}
+
+.errorInput:focus ~ span{
+    color: #38ef7d;
+    margin-bottom: 1px;
+    top:0;
 }
 
 .error {
+    float: right;
+    text-align: center;
     color: red;
+    height: 12px;
 }
