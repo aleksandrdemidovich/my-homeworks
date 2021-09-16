@@ -1,0 +1,37 @@
+.Wrap {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    transform: translate(-230px);
+    transition-duration: 0.5s;
+}
+
+.navigationItem {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.Wrap:hover {
+    transform: translate(0);
+    transition-duration: 0.5s;
+}
+
+
+.Wrap ul li {
+    padding-right: 15px;
+    list-style-type: none;
+}
