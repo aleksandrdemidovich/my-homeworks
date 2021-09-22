@@ -4,7 +4,7 @@
     width: 400px;
     overflow:hidden;
     position:relative;
-    margin-bottom: 20px;
+
 }
 
 .superInput {
@@ -16,12 +16,12 @@
     border-bottom: 2px solid #9b9b9b;
     outline: 0;
     font-size: 1.3rem;
-    color: #fff;
+    color: #222222;
     background: transparent;
 }
 
 .placeHolder {
-    color: #9b9b9b;
+    color: #222222;
     font-size: small;
 }
 
@@ -65,7 +65,6 @@
     font-size: 1.3rem;
     border: 0;
     outline: 0;
-    background-color:#222222;
     border-bottom: 3px solid red;
 }
 
@@ -92,5 +91,6 @@
     float: right;
     text-align: center;
     color: red;
-    height: 12px;
+    height: 10px;
+    font-size: 0.9rem;
 }

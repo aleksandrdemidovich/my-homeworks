@@ -2,7 +2,6 @@
     display: flex;
     margin: 10px;
     background-color: mediumpurple;
-
 }
 
 .rootMess img {
@@ -45,7 +44,10 @@
     left: -5px;
 }
 
-.inputForm{
-
+.messText{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-break: break-all;
 }
 

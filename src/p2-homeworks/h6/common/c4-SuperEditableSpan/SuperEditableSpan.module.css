@@ -1,0 +1,11 @@
+.span{
+    display: flex;
+    color: #005e76;
+    margin-top: 30px;
+}
+
+span img{
+    filter: invert(20%) sepia(88%) saturate(1791%) hue-rotate(169deg) brightness(96%) contrast(101%);
+    width: 20px;
+    height: 20px;
+}
