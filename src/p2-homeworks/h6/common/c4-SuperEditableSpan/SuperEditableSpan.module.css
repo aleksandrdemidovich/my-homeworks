@@ -1,7 +1,8 @@
 .span{
     display: flex;
     color: #005e76;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 11px;
 }
 
 span img{

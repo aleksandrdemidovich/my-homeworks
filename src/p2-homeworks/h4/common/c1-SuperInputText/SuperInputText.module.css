@@ -1,28 +1,37 @@
 .inputWrap label{
     display:block;
-    height:50px;
+    height:40px;
     width: 400px;
     overflow:hidden;
     position:relative;
+    padding-left: 5px;
+    margin: 0;
+}
 
+.inputWrap{
+    margin-bottom: 10px;
 }
 
 .superInput {
     position: absolute;
-    top: 20px;
-    font-family: inherit;
+    top: 10px;
     width: 400px;
     border: 0;
     border-bottom: 2px solid #9b9b9b;
     outline: 0;
-    font-size: 1.3rem;
-    color: #222222;
-    background: transparent;
+    font-size: 1.2rem;
+    background: inherit;
+    font-weight: 700;
+    color: gray;
+    padding-left: 10px;
 }
 
 .placeHolder {
-    color: #222222;
-    font-size: small;
+    color: #38ef7d;
+    background-color: inherit;
+    font-size: x-small;
+    padding-left: 10px;
+
 }
 
 .hidePlaceHolder {
@@ -45,33 +54,31 @@
 
 .superInput:focus {
     font-weight: 700;
-    border-width: 3px;
+    border-width: 5px;
     border-image: linear-gradient(to right, #11998e, #38ef7d);
     border-image-slice: 1;
+    padding-left: 10px;
+
 }
-
-
 
 
 .errorInput:focus {
     color: #fff;
     border-bottom: 3px solid red;
+    background-color: inherit;
+    padding-left: 10px;
 }
 
 .errorInput {
     position: absolute;
-    top: 20px;
-    width: 400px;
+    top: 10px;
     font-size: 1.3rem;
     border: 0;
     outline: 0;
     border-bottom: 3px solid red;
-}
+    background-color: inherit;
+    width: 100%;
 
-.errorInput span{
-    transition:top .4s ease;
-    position:absolute;
-    top:20px;
 }
 
 
@@ -89,8 +96,6 @@
 
 .error {
     float: right;
-    text-align: center;
     color: red;
-    height: 10px;
     font-size: 0.9rem;
 }

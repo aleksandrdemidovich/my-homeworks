@@ -75,6 +75,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
+    margin: 10px;
 }
 
 .red:hover,

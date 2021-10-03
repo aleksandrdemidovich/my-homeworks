@@ -47,6 +47,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
             <label htmlFor="name">
             <input
                 type={'text'}
+                autoComplete='off'
                 onChange={onChangeCallback}
                 onKeyPress={onKeyPressCallback}
                 className={finalInputClassName}
